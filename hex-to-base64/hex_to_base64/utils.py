@@ -7,5 +7,4 @@ def translate(hex_string):
     Returns
     A base64 String
     '''
-    base64_string = ''
-    return base64_string
+    return hex_string.decode('hex').encode('base64')
